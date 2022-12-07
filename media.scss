@@ -1,0 +1,571 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+#header{
+  .header{
+    width: 90%;
+  }
+}
+  #portfolio{
+    .portfolio{
+      &--otzyvy{
+        left: 0;
+      }
+      &--otzyvy2{
+        left: -3%;
+      }
+      &--tochka1{
+        left: 41%;
+      }
+      &--tochka2{
+        left: 44%;
+      }
+      &--tochka3{
+        left: 47%;
+      }
+      &--btn{
+        left: 38%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #portfolio{
+    .portfolio{
+      &--otzyvy{
+        width: 82%;
+        top: 92%;
+        left: 63px;
+      }
+      &--otzyvy2{
+        left: 8%;
+      }
+      &--btn{
+        top: 4970px;
+      }
+    }
+  }
+  #hero{
+    .hero{
+      &--title{
+        &__hand-right{
+          top: -19px;
+          right: 0;
+          width: 46%;
+
+        }
+        &__hand-left{
+          top: 110px;
+          right: 0;
+          width: 36%;
+
+
+        }
+        &__neon{
+          right: 1%;
+        }
+      }
+    }
+  }
+  #imagehand{
+    .imagehand{
+      &--imgright{
+        padding-top: 11%;
+        width: 57%;
+      }
+      &--imgleft{
+        padding-top: 8%;
+        width: 57%;
+      }
+    }
+  }
+  #image{
+    .image{
+      &--imgleft{
+        top: -299px;
+        left: 0;
+        width: 61%;
+      }
+    }
+  }
+  #header{
+    .header{
+      margin-left: 5%;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 768px) {
+#portfolio{
+  .portfolio{
+    &--otzyvy2{
+      width: 88%;
+    }
+    &--otzyvy3{
+      right: 5%;
+      z-index: -1;
+      width: 90%;    }
+    &--btn{
+      left: 36%;
+      top: 528%;
+    }
+  }
+}
+  #table{
+    .table{
+      &--imput{
+        width: 65%;
+
+      }
+      &--info{
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    }
+  }
+  #port{
+    .port{
+      margin-left: 25%;
+      &--info{
+        flex-wrap: wrap;
+        &__title{
+          p{
+            padding: 40px 0;
+          }
+          &--btn{
+            margin-bottom: 10%;
+          }
+        }
+      }
+    }
+  }
+  #header{
+    .header{
+      &--nav{
+        display: none;
+      }
+
+    }
+  }
+  #hero{
+    .hero{
+      &--title{
+        &__neon{
+          display: none;
+        }
+        &__hand-right{
+          top: 67px;
+
+        }
+        &__hand-left{
+          top: 141px;
+        }
+      }
+    }
+  }
+  #image{
+    .image{
+      &--imgright{
+        top: -235px;
+        width: 55%;
+
+      }
+      &--imgleft{
+        top: -235px;
+        width: 55%;
+
+      }
+     &--neon1{
+display: none
+     }
+     &--neon2{
+display: none
+     }
+     &--neon3{
+display: none
+     }
+     &--neon4{
+display: none
+     }
+    }
+  }
+  #nas{
+    .nas{
+      &--title{
+        &__person{
+          &--block{
+            padding: 40px 16px;
+          }
+        }
+      }
+    }
+  }
+  #table{
+    .table{
+      &--img{
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #nas{
+    .nas{
+      &--title{
+        &__person{
+          &--block{
+            img{
+              height: 100%;
+              width: 90%;
+            }
+          }
+        }
+        &__texts{
+          p{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  #image{
+    .image{
+      &--imgright{
+        top: -192px;
+        width: 52%;
+      }
+      &--imgleft  {
+        top: -192px;
+        width: 52%;
+      }
+    }
+  }
+  #port{
+    .port{
+      margin-left: 9%;
+    }
+  }
+  #imagehand{
+    .imagehand{
+      &--imgright{
+        padding-top: 31%;
+        width: 57%
+      }
+      &--imgleft{
+        padding-top: 26%;
+        width: 57%
+      }
+    }
+  }
+  #portfolio{
+    .portfolio{
+      &--btn{
+        left: 33%;
+        top: 539%;
+      }
+      &--otzyvy{
+        left: 58px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 451px) {
+ #nas{
+   .nas{
+     &--title{
+       &__texts{
+         flex-wrap: wrap;
+       }
+     }
+   }
+ }
+  #port{
+    .port{
+      margin-left: 2%;
+      &--info{
+        &__title{
+          p{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  #table{
+    .table{
+      h1{
+        font-size: 38px;
+      }
+      &--line{
+        width: 418px;
+      }
+      &--unswer{
+        font-size: 12px;
+      }
+      &--info {
+        &__block1{
+          &--title{
+            padding-left: 30%;
+          }
+        }
+
+      }
+    }
+  }
+  #hero{
+    .hero{
+    &--title{
+      h1{
+        font-size: 81px;
+      }
+    }
+  }
+  }
+  #portfolio{
+    .portfolio{
+      &--otzyvy{
+        left: 44px;
+        top: 86%;
+      }
+      &--strelkaright{
+        width: 12%;
+        height: 50%;
+        top: 171px;
+        right: 98px;
+      }
+      &--strelkaleft{
+        width: 12%;
+        height: 50%;
+        top: 171px;
+        right: 108px;
+      }
+      &--tochka1{
+        top: 356px;
+      }
+      &--tochka2{
+        top: 356px;
+        left: 46%;
+      }
+      &--tochka3{
+        top: 356px;
+        left: 51%;
+      }
+    }
+  }
+  #imagehand{
+    .imagehand{
+      &--imgright{
+        padding-top: 43%;
+      }
+      &--imgleft{
+        padding-top: 43%;
+      }
+    }
+  }
+  #image{
+    .image{
+      &--imgright{
+        top: -148px;
+      }
+      &--imgleft{
+        top: -148px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+#port{
+  .port{
+    p{
+      font-size: 14px;
+    }
+    img{
+      width: 90%;
+    }
+  }
+}
+  #nas{
+    .nas{
+      p{
+        font-size: 14px;
+      }
+      &--title{
+      }
+    }
+  }
+  #hero{
+    .hero{
+      &--title{
+        h2{
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  #table{
+    .table{
+      h1{
+        font-size: 34px;
+      }
+      &--line{
+        width: 99%;
+      }
+      &--info{
+        width: 90%;
+      }
+    }
+  }
+  #portfolio{
+    .portfolio{
+      &--strelkaright{
+        top: 155px;
+        right: 103px;
+      }
+      &--strelkaleft{
+        top: 155px;
+        right: 103px;
+      }
+      &--btn{
+        left: 31%;
+      }
+    }
+  }
+  #header{
+    .header{
+      &--nav{
+        &__btn{
+          &--btn1{
+            width: 190px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+ #table{
+   .table{
+     h1{
+       font-size: 33px;
+     }
+   }
+ }
+  #port{
+    .port{
+      p{
+        font-size: 22px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 320px) {
+  #table{
+
+  .table{
+    h1{
+      font-size: 27px;
+    }
+    &--info{
+      &__block1{
+        &--input{
+          &__text{
+            width: 320px;
+
+          }
+        }
+
+      }
+    }
+    &--unswer{
+      &__letter{
+        margin: 0 5px;
+      }
+    }
+  }
+  }
+  #header{
+    .header{
+      &--nav{
+        &__btn{
+          &--btn1{
+            width: 144px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  #hero{
+    .hero{
+      &--title{
+        h2{
+          font-size: 22px;
+        }
+      }
+
+    }
+  }
+  #table{
+    .table{
+      &--info{
+        width: 67%;
+        &__block1{
+          &--input{
+            &__text{
+              width: 314px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+  #nas{
+    .nas{
+      &--title{
+        &__person{
+          flex-flow: wrap;
+          margin-left: 10%;
+        }
+      }
+    }
+  }
+  #portfolio{
+    .portfolio{
+      &--btn{
+        top: 598%;
+        left: 24%;
+      }
+      &--strelkaleft{
+        top: 129px;
+        left: 39%;      }
+      &--otzyvy{
+
+        left: 30px;
+        top: 84%;
+
+      }
+      &--strelkaright{
+        top: 128px;
+        right: 75px;      }
+    }
+  }
+
+}
